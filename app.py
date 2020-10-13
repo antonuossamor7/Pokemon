@@ -40,5 +40,5 @@ def Frequency():
     return render_template("marker.html")
     
 
-if __name__=="__main__":
+if __name__=="__index__":
     app.run()
