@@ -14,7 +14,12 @@ var svg = d3
     .select(".container")
     .append("svg")
     .attr("height", svgHeight)
-    .attr("width", svgWidth);
+    .attr("width", svgWidth)
+
+var tooltip = d3.select("#tooltip")
+    .append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
 
 var chartGroup = svg.append("g")
     .attr("transform", `translate(${chartMargin.left}, ${chartMargin.top})`);
@@ -62,22 +67,7 @@ d3.csv("./Pokemon.csv").then((pokeData) => {
         .attr("x", (data, i) => i * (barWidth + barSpacing))
         .attr("y", data => chartHeight - data.spawn_chance * scaleY);
 
-    //tooltip
-    var toolTip = d3.select("body").append("container")
-        .attr("class", "tooltip");
 
-    chartGroup.on("mouseover", function (d, i) {
-        toolTip.style("display", "block");
-        toolTip.html(`Spawn Chance: <strong>${pokeData[i]}</strong>`)
-            .style("left", d3.event.pageX + "px")
-            .style("top", d3.event.pageY + "px");
-    })
-        .on("mouseout", function () {
-            toolTip.style("display", "none");
-        });
-
-
-
-    }).catch(function (error) {
+}).catch(function (error) {
     console.log(error)
 });
