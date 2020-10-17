@@ -2,96 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
   <title>Pokemon Visualization</title>
   <link rel="icon" href="./Assets/pokemonball.png" type="image/icon type">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./style2.css">
 </head>
 <body>
 
   <div id="mySidenav" class="sidenav">
-    <a href="./TheSweet16.html" id="sweet16">SWEET 16</a>
-    <a href="./index.html" id="arena">THE ARENA</a>
-    <a href="./SpawnChance.html" id="localisation">THE QUEST</a>
-    <a href="./about.html" id="about">ABOUT</a>
-    <a href="./intro.html" id="home">HOME</a>
+    <a href="./TheSweet16.html" id="sweet16">Sweet16</a>
+    <a href="./index.html" id="arena">Arena</a>
+    <a href="./SpawnChance.html" id="localisation">Gotcha</a>
+    <a href="./about.html" id="about">About</a>
+    <a href="./intro.html" id="home">Home</a>
   </div>
 
     <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-12">
 
-            <h1><span style="color:rgb(255, 208, 0)">S</span>WEET<span style="color:rgb(255, 208, 0)"> 16</span> </h1> 
+            <h1><span style="color:rgb(255, 208, 0)">S</span>weet<span style="color:rgb(255, 208, 0)"> 16</span> </h1> 
 
           </div>
         </div>
     </div>
-    <div class="svg">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class="img1" src= "images/bulbasaur.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/charizard.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/doduo.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/eevee.png">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img src= "images/ekans.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/jigglypuff.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/magikarp.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/paras.png">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img src= "images/pidgey.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/pikachu.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/psyduck.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/rattata.png">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img src= "images/spearow.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/squirtle.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/weedle.png">
-                </div>
-                <div class="col-sm-3">
-                    <img src= "images/zubat.png">
-                </div>
-            </div>
-        </div>
-    </div>
+
+    <div class="container">
+      <div class="row">
+          <div class="col">
+              <div class="card w-100">
+                  <div class="card-body p-50" id="stats">
+                      <h2 class="card-title">Pokémon Stats</h2>
+                      Select Pokémon: <br>
+                      <select id="poke"></select><br>
+                      <div>
+                          <div id='image'>
+                              <svg id="chart" width="650" height="400"></svg>
+                          </div>
+                          <div id='tooltip'></div>
+                      </div>
+                      <div id="footnote">
+                          <p>Data from: https://www.kaggle.com/rounakbanik/pokemon<br>Image from: www.pokemon.com</p>
+                      </div>
+                     
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="./stats.js"></script>
+  <style src="./style2.css"></style>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
     <script type="text/javascript" src="static/js/app.js"></script>
