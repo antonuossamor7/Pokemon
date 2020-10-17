@@ -124,7 +124,7 @@ text {
 }
 
 .bar {
-  fill: red;
+  fill: rgb(185, 2, 2);
 }
 .bar:hover {
   fill: forestgreen;
