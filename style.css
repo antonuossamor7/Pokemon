@@ -120,7 +120,7 @@ text {
 
 @font-face {
   font-family: myFont;
-  src: url(Assets/Pokemon\ Solid.ttf);
+  src: url(Assets/PokemonSolid.ttf);
 }
 
 .bar {
