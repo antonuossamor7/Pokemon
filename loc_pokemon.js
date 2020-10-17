@@ -786,6 +786,6 @@ var cities = [
 for (var i = 0; i < cities.length; i++) {
   var city = cities[i]
   L.marker(city.location)
-    .bindPopup("<h1>" + city.name + "</h1> <h2>num " + city.num + "</h3>")
+    .bindPopup("<h2>" + city.name + "</h2> <h2>num " + city.num + "</h2>")
     .addTo(myMap)
 }
