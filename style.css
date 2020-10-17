@@ -122,3 +122,11 @@ text {
   font-family: myFont;
   src: url(Assets/Pokemon\ Solid.ttf);
 }
+
+.bar {
+  fill: red;
+}
+
+.bar:hover {
+  fill: forestgreen;
+}
