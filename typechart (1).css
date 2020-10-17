@@ -1,0 +1,220 @@
+
+
+
+.node {
+    font: 300 16px Arial, Helvetica, sans-serif;
+    fill: #050505;
+    font-weight: bold;
+    
+  }
+  
+  .node:hover, .node--active {
+    fill: rgb(255, 208, 0); 
+  }
+  
+  .immune, .weak, .strong {
+    stroke: rgb(82, 80, 80);
+    stroke-opacity: 0.1;
+    fill: none;
+    pointer-events: none;
+    z-index: -100;
+    stroke-width: 1px;
+  }
+  .node:hover,
+  .node--source,
+  .node--target,
+  .node--active {
+    font-weight: 700;
+    opacity: 1;
+  }
+  
+  .does-not-affect,
+  .not-very-effective-against,
+  .super-effective-against,
+  .is-weak-against,
+  .resists-against, 
+  .is-immune {
+    stroke-width: 2px;
+    stroke-opacity: 1;
+    z-index: 99999;
+  }
+  
+  .legend {
+    display: inline-block;
+    width: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+  }
+  
+  .does-not-affect {
+    stroke: rgba(250, 0, 235, 1); 
+    border-color: rgba(250, 0, 235, 1);
+  }
+  
+  .not-very-effective-against {
+    stroke: rgba(0, 193, 248, 1);
+    border-color: rgba(0, 193, 248, 1);
+  }
+  
+  .super-effective-against {
+    stroke: rgba(255, 204, 0, 1);
+    border-color: rgba(255, 204, 0, 1);
+  }
+  
+  .is-weak-against,
+  .resists-against, 
+  .is-immune,
+  .double-strengths-node,
+  .double-weaknesses-node,
+  .legend-dash {
+    border-radius: 0;
+    stroke-dasharray: 5 0;
+  }
+  
+  .is-immune {
+    stroke: rgba(250, 0, 235, 1); 
+    border-color: rgba(250, 0, 235, 1);
+  }
+  
+  .resists-against {
+    stroke: rgba(0, 193, 248, 1);
+    border-color: rgba(0, 193, 248, 1);
+  }
+  
+  .is-weak-against {
+    stroke: rgba(255, 204, 0, 1);
+    border-color: rgba(255, 204, 0, 1);
+  }
+  
+  #typechart {
+    margin: auto;
+    text-align: center;
+    width: 1100px;
+  }
+  
+  #details {
+    width: 350px;
+    float: left;
+    color: #f7f7f7;
+    font-family: 'Open Sans';
+    text-align: left;
+  }
+  
+  #details h1, #details h2 {
+    text-align: left;
+    font-family: 'Open Sans';
+    color: #0000;
+  }
+  
+  a, a:visited, a:active {
+    color: rgb(204, 0, 0);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  #graph {
+    width: 750px;
+    float: left;
+  }
+  
+  #is-also-effective-against {
+    display: none;
+  }
+  
+
+  .weaknesses-node {
+    fill: rgba(0, 193, 248, 1);
+  }
+  
+  .button.reset {
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    margin-top: 55px;
+    margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 208, 0);
+  }
+
+ svg{
+  position: relative;
+  margin-left: 70%;
+  top: 30px;
+  bottom: 0px;
+  }
+
+  #mySidenav a {
+    position: absolute; 
+    left: -150px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 170px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+    font-family: myFont !important;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  
+  #sweet16 {
+    top: 20px;
+    background-color: #919291;
+  }
+  
+  #arena {
+    top: 80px;
+    background-color: #6b6a6a; 
+  }
+  
+  #localisation {
+    top: 140px;
+    background-color: #353535; 
+    font-size: 20px !important;
+  }
+  
+  #about {
+    top: 200px;
+    background-color: rgb(27, 27, 27) 
+  }
+  #home {
+    top: 260px;
+    background-color: rgb(185, 2, 2); 
+    color: white !important;
+  }
+
+  h1{
+    font-size: 75px;
+    color: #525151;
+    font-family: myFont !important;
+    margin-bottom: 60px;
+    background-color: white;
+    padding-left: 20px;
+
+  }
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px !important;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 10px;
+  }
+
+  @font-face {
+    font-family: myFont;
+    src: url(Assets/Pokemon\ Solid.ttf);
+  }

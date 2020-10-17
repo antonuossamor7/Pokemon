@@ -1,0 +1,71 @@
+#mySidenav a {
+    position: absolute; 
+    left: -150px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 170px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+    font-family: myFont !important;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+ 
+  #sweet16 {
+    top: 20px;
+    background-color: #919291;
+  }
+  
+  #arena {
+    top: 80px;
+    background-color: #6b6a6a; 
+  }
+  
+  #localisation {
+    top: 140px;
+    background-color: #353535; 
+    font-size: 20px !important;
+  }
+  
+  #about {
+    top: 200px;
+    background-color: rgb(27, 27, 27) 
+  }
+  #home {
+    top: 260px;
+    background-color: rgb(185, 2, 2); 
+    color: white !important;
+  }
+
+  h1{
+    font-size: 75px;
+    color: #525151;
+    font-family: myFont !important;
+    margin-bottom: 60px;
+    background-color: white;
+    padding-left: 20px;
+
+  }
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px !important;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 10px;
+  }
+
+  @font-face {
+    font-family: myFont;
+    src: url(Assets/Pokemon\ Solid.ttf);
+  }
