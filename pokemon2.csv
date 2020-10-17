@@ -1,0 +1,31 @@
+abilities,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,attack,base_egg_steps,base_happiness,base_total,capture_rate,classfication,defense,experience_growth,height_m,hp,japanese_name,name,percentage_male,pokedex_number,sp_attack,sp_defense,speed,type1,type2,weight_kg,generation,is_legendary
+"['Overgrow', 'Chlorophyll']",1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5,49,5120,70,318,45,Seed Pokémon,49,1059860,0.7,45,Fushigidaneフシギダネ,Bulbasaur,88.1,1,65,65,45,grass,poison,6.9,1,0
+"['Blaze', 'Solar Power']",0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2,104,5120,70,634,45,Flame Pokémon,78,1059860,1.7,78,Lizardonリザードン,Charizard,88.1,6,159,115,100,fire,flying,90.5,1,0
+"['Torrent', 'Rain Dish']",1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5,48,5120,70,314,45,Tiny Turtle Pokémon,65,1059860,0.5,44,Zenigameゼニガメ,Squirtle,88.1,7,50,64,43,water,,9.0,1,0
+"['Shield Dust', 'Run Away']",0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1,35,3840,70,195,255,Hairy Pokémon,30,1000000,0.3,40,Beedleビードル,Weedle,50,13,20,20,50,bug,poison,3.2,1,0
+"['Keen Eye', 'Tangled Feet', 'Big Pecks']",0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1,45,3840,70,251,255,Tiny Bird Pokémon,40,1059860,0.3,40,Poppoポッポ,Pidgey,50,16,35,35,56,normal,flying,1.8,1,0
+"['Run Away', 'Guts', 'Hustle', 'Gluttony', 'Hustle', 'Thick Fat']",1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1,56,3840,70,253,255,Mouse Pokémon,35,1000000,,30,Korattaコラッタ,Rattata,50,19,25,35,72,normal,dark,,1,0
+"['Keen Eye', 'Sniper']",0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1,60,3840,70,262,255,Tiny Bird Pokémon,30,1000000,0.3,40,Onisuzumeオニスズメ,Spearow,50,21,31,31,70,normal,flying,2.0,1,0
+"['Intimidate', 'Shed Skin', 'Unnerve']",0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1,60,5120,70,288,255,Snake Pokémon,44,1000000,2.0,35,Arboアーボ,Ekans,50,23,40,54,55,poison,,6.9,1,0
+"['Static', 'Lightningrod']",1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,55,2560,70,320,190,Mouse Pokémon,40,1000000,0.4,35,Pikachuピカチュウ,Pikachu,50,25,50,50,90,electric,,6.0,1,0
+"['Cute Charm', 'Competitive', 'Friend Guard']",0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1,45,2560,70,270,170,Balloon Pokémon,20,800000,0.5,115,Purinプリン,Jigglypuff,24.6,39,45,25,20,normal,fairy,5.5,1,0
+"['Inner Focus', 'Infiltrator']",0.25,1,1,2,0.5,0.25,1,1,1,0.25,0,2,1,0.5,2,2,1,1,45,3840,70,245,255,Bat Pokémon,35,1000000,0.8,40,Zubatズバット,Zubat,50,41,30,40,55,poison,flying,7.5,1,0
+"['Effect Spore', 'Dry Skin', 'Damp']",2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5,70,5120,70,285,190,Mushroom Pokémon,55,1000000,0.3,35,Parasパラス,Paras,50,46,45,55,25,bug,grass,5.4,1,0
+"['Damp', 'Cloud Nine', 'Swift Swim']",1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5,52,5120,70,320,190,Duck Pokémon,48,1000000,0.8,50,Koduckコダック,Psyduck,50,54,65,50,55,water,,19.6,1,0
+"['Run Away', 'Early Bird', 'Tangled Feet']",0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1,85,5120,70,310,190,Twin Bird Pokémon,45,1000000,1.4,35,Dodoドードー,Doduo,50,84,35,35,75,normal,flying,39.2,1,0
+"['Swift Swim', 'Rattled']",1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5,10,1280,70,200,255,Fish Pokémon,55,1250000,0.9,20,Koikingコイキング,Magikarp,50,129,15,20,80,water,,10.0,1,0
+"['Run Away', 'Adaptability', 'Anticipation']",1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1,55,8960,70,325,45,Evolution Pokémon,50,1000000,0.3,55,Eievuiイーブイ,Eevee,88.1,133,45,65,55,normal,,6.5,1,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
