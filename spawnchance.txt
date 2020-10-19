@@ -1,0 +1,5 @@
+The pokemon spawn chance (or spawn rate) is based around an individual pokemon's actual occurences per 10,000 encounters. 
+For example, Pidgey has a rate of 1,598 per 10,000 spawns. This works out to 15.98% spawn chance. For comparison, 
+Pidgey typically has a 40% spawn chance in the beggining area of the regular Pokemon game. The lowest spawn rate
+of the 16 we chose is Charizard with a chance/percent of: .31 or .0031%. We chose a bar to better illustrate the large
+difference in spawn chance between some of the Pokemon.
