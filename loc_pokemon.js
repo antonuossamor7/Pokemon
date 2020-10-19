@@ -1,7 +1,7 @@
 // first Map
 var myMap = L.map('map', {
   center: [37.57, -122.37],
-  zoom: 8,
+  zoom: 9,
 });
 
 //////tile layer
