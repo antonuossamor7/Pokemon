@@ -44,10 +44,10 @@ d3.csv("./Pokemon.csv").then((pokeData) => {
         .range([chartHeight, 0]);
 
     var bottomAxis = d3.axisBottom(xBandScale);
-    var leftAxis = d3.axisLeft(yLinearScale).ticks(10);
+    var leftAxis = d3.axisLeft(yLinearScale).ticks(20);
 
     var barSpacing = 10;
-    var scaleY = .25;
+    var scaleY = .22;
 
     var barWidth = (chartWidth - (barSpacing * (pokeData.length - 1))) / pokeData.length;
 
@@ -66,6 +66,16 @@ d3.csv("./Pokemon.csv").then((pokeData) => {
         .attr("height", data => data.spawn_chance * scaleY)
         .attr("x", (data, i) => i * (barWidth + barSpacing))
         .attr("y", data => chartHeight - data.spawn_chance * scaleY);
+
+    chartGroup.append("text")
+        .attr("class", "label")
+        .attr("y", barHeight / 2)
+        .attr("dy", ".35em") //vertical align middle
+        .text(function(d){
+            return d.spawn_chance;
+        }).each(function() {
+        labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width));
+});
 
 
 }).catch(function (error) {
