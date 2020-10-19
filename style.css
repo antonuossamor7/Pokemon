@@ -124,9 +124,19 @@ text {
 }
 
 .bar {
-  fill: red;
+  fill: rgb(185, 2, 2);
 }
-
 .bar:hover {
   fill: forestgreen;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
 }
