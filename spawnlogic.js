@@ -1,5 +1,6 @@
 var svgHeight = 450;
 var svgWidth = 1000;
+
 var chartMargin = {
     top: 40,
     bottom: 40,
