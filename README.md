@@ -1,4 +1,5 @@
 # Project-2-Pokemon# data-journalism
+https://mdcrawford27.github.io/Project-2-Pokemon/intro.html
 ![](Assets/frontpage.png)
 
 ## SUMMARY ##
